@@ -1,0 +1,264 @@
+<html>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+           <a class="navbar-brand" href="#">
+                <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Embodied Carbon
+            </a>
+            <a class="nav-link" href="#">References</a>
+        </nav> 
+
+        <!-- Input Update Form -->
+        <div id="inputUpdate" style="display:none">
+            <h3>Input / Update Database</h3>
+            <table id="inputUpdateForm">
+                <tr>
+                    <td>ID</td>
+                    <td><input type="text" name="ID" id="idInput"></td>
+                </tr>
+                <tr>
+                    <td>Material</td>
+                    <td>  
+                    <select id="Material" name="Material">
+                        <option value="AggregateSand">AggregateSand</option>
+                        <option value="Aluminium">Aluminium</option>
+                        <option value="Asphalt">Asphalt</option>
+                        <option value="Bitumen">Bitumen</option>
+                        <option value="Cement">Cement</option>
+                        <option value="Bitumen">Bitumen</option>
+                        <option value="Clay">Clay</option>
+                        <option value="Glass">Glass</option>
+                        <option value="Steel">Steel</option>
+                        <option value="Timber">Timber</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>    
+                    <td>Density</td>
+                    <td><input type="number" name="Density"></td>
+                </tr>
+                 <tr>    
+                    <td>EmbodiedCarbon</td>
+                    <td><input type="number" name="EmbodiedCarbon"></td>
+                </tr>
+
+                <tr>
+                    <td></td><td>
+                        <button id="create-button" onclick="doCreate()">Create</button>     
+                        <button id="update-button" onclick="doUpdate()">update</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <button id="showInputUpdateButton" onclick="showInputUpdate()">Input Update</button>
+            <button id="showFullTableButton" onclick="showFullTable()">Show Full Table</button>
+            <button id="hideFullTableButton" onclick="hideFullTable()">Hide Full Table</button>
+        </div>
+
+        <!-- Full Table -->
+        <div id="fullTable" style="display:none">
+            <table id="carbonTable" class="table table-hover table-striped">
+                <tr>
+                <thead class="thead-dark">
+                    <th>ID</th><th>Material</th><th>Name</th><th>Density</th><th>EmbodiedCarbon</th>
+                </thead>
+                </tr>
+            </table>
+        </div>
+
+        <script>
+
+            function showFullTable() {
+                document.getElementById('showFullTableButton').style.display = "none"
+                document.getElementById('hideFullTableButton').style.display = "block"
+                document.getElementById('fullTable').style.display = "block"
+            }
+
+            function hideFullTable() {
+                document.getElementById('showFullTableButton').style.display = "block"
+                document.getElementById('hideFullTableButton').style.display = "none"
+                document.getElementById('fullTable').style.display = "none"
+            }
+
+            function showInputUpdate() {
+                document.getElementById('inputUpdate').style.display = "block"
+                document.getElementById('fullTable').style.display = "none"
+                document.getElementById('hideFullTableButton').style.display = "none"
+                document.getElementById('showInputUpdateButton').style.display = "none"
+                document.getElementById('showFullTableButton').style.display = "block"
+            }
+
+            function populateTable(){
+                //ajax getAll
+               $.ajax({
+                   url:'http://127.0.0.1:5000/iceData',
+                   method:'GET',
+                   datatype:'JSON',
+                   success:function(results){
+                        for (elem of results){
+                             addToTable(elem)
+                        }
+                   },
+                   error:function (xhr,status,error){
+                       console.log ("error "+error +" code:"+status)
+                   }
+               })
+            }
+
+            function addToTable(carbon){
+                //console.log("working so far")
+                tableElem = document.getElementById("carbonTable")
+                rowElem = tableElem.insertRow(-1)
+                rowElem.setAttribute("id", carbon.ID)
+                cell1 = rowElem.insertCell(0)
+                cell1.innerHTML = carbon.ID
+                cell2 = rowElem.insertCell(1)
+                cell2.innerHTML = carbon.Material
+                cell3 = rowElem.insertCell(2)
+                cell3.innerHTML = carbon.Name
+                cell4 = rowElem.insertCell(3)
+                cell4.innerHTML = carbon.Density
+                cell5 = rowElem.insertCell(4)
+                cell5.innerHTML = carbon.EmbodiedCarbon
+            }
+
+            populateTable()
+
+        </script>
+
+<!--             // function readFromRow(rowElement){
+            //     carbon = {}
+            //     carbon.ID = rowElement.getAttribute("id");
+            //     carbon.Material = rowElement.cells[1].firstChild.textContent
+            //     carbon.Name = rowElement.cells[2].firstChild.textContent
+            //     carbon.Density = rowElement.cells[3].firstChild.textContent
+            //     carbon.EmbodiedCarbon = rowElement.cells[4].firstChild.textContent
+            //     return carbon
+            // }
+
+            // function populateForm(carbon){
+            //     var form = document.getElementById('inputUpdateForm')
+                
+            //     form.querySelector('input[name="ID"]').value = carbon.ID
+            //     form.querySelector('input[name="ID"]').disabled=true
+
+            //     form.querySelector('input[name="Material"]').value = carbon.Material
+            //     form.querySelector('input[name="Name"]').value = carbon.Name
+            //     form.querySelector('input[name="Density"]').value = carbon.Density
+            //     form.querySelector('input[name="EmbodiedCarbon"]').value = carbon.EmbodiedCarbon     
+            // }
+
+            // function clearForm() {
+            //     var form = document.getElementById('inputUpdateForm')
+
+            //     form.querySelector('input[name="ID"]').value = ''
+            //     form.querySelector('input[name="ID"]').disabled = false
+
+            //     form.querySelector('input[name="Material"]').value = ''
+            //     form.querySelector('input[name="Name"]').value = ''
+            //     form.querySelector('input[name="Density"]').value = ''
+            //     form.querySelector('input[name="EmbodiedCarbon"]').value = ''
+            // }
+
+            // function doCreate(){
+            //     console.log("in doCreate")
+            //     carbon= getCarbonFromForm()
+            //     console.log(carbon)
+            //     $.ajax({
+            //         url:"/iceData",
+            //         data:JSON.stringify(carbon),
+            //         method:"POST",
+            //         dataType:"JSON",
+            //         contentType: "application/json; charset=utf-8",
+            //         success:function(result){
+            //             console.log(result) 
+            //             addToTable(carbon)
+            //             showFullTable()
+            //             clearForm()
+            //         },
+            //         error:function(xhr,status,error){
+            //             console.log("error"+error)
+            //         }
+            //     })
+            // }
+
+            // function doUpdate(){
+            //     carbon = getCarbonFromForm()
+            //     updateServer(carbon)  
+            // }
+
+            // function updateServer(carbon){
+            //    $.ajax({
+            //         url: "/iceData/"+carbon.ID,
+            //         data: JSON.stringify(carbon),
+            //         method: "PUT",
+            //         dataType: "JSON",
+            //         contentType: "application/json; charset=utf-8",
+            //         success: function (result) {
+            //             console.log(result)
+            //             updateTableRow(carbon)
+            //             showFullTable()
+            //             clearForm()
+            //         },
+            //         error: function (xhr, status, error) {
+            //             console.log("error" + error)
+            //         }
+            //     })
+            // }
+
+            // function doDelete(thisElem){
+            //     var tableElement = document.getElementById('carbonTable');
+            //     var rowElement = thisElem.parentNode.parentNode;
+            //     var index = rowElement.rowIndex;
+            //     ID = rowElement.getAttribute("id");
+            //     $.ajax({
+            //         url:"/iceData/"+ID,
+            //         method:"DELETE",
+            //         dateType:"JSON",
+            //         success:function(result){
+            //             tableElement.deleteRow(index);
+            //         },
+            //         error:function(xhr,status,error){
+            //             console.log(error)
+            //         }
+            //     })     
+            // }
+
+            // function updateTableRow(carbon){
+            //     rowElement = document.getElementById(carbon.ID)
+            //     rowElement.cells[1].firstChild.textContent = carbon.Material
+            //     rowElement.cells[2].firstChild.textContent = carbon.Name
+            //     rowElement.cells[3].firstChild.textContent = carbon.Density
+            //     rowElement.cells[3].firstChild.textContent = carbon.EmbodiedCarbon
+            //     //console.log("updating table")
+            // }
+
+            // function getCarbonFromForm(){
+            //     var form = document.getElementById('inputUpdateForm')
+
+            //     var carbon = {}
+            //     carbon.ID = form.querySelector('input[name="ID"]').value
+            //     carbon.Material = form.querySelector('input[name="Material"]').value
+            //     carbon.Name = form.querySelector('input[name="Name"]').value
+            //     carbon.Density = form.querySelector('input[name="Density"]').value
+            //     carbon.EmbodiedCarbon = form.querySelector('input[name="EmbodiedCarbon"]').value
+            //     //console.log(carbon)
+            //     return carbon
+            // } -->
+
+            <!-- populateTable() -->
+
+    </body>
+</html>

@@ -1,0 +1,527 @@
+ID,Material,Name,Density,Embodied Carbon
+1,AggregateSand,"Aggregates and sand, general UK, mixture of land won, marine, secondary and recycled, bulk, loose",1600.0,0.007469645473733029
+2,AggregateSand,"Aggregates and sand, general, virgin mixture of land won and marine, bulk, loose",1600.0,0.004927788903286607
+3,AggregateSand,"Aggregates and sand, from virgin land won resources, bulk, loose",1600.0,0.004384350223880597
+4,AggregateSand,"Aggregates and sand, from virgin marine resources, bulk, loose",1600.0,0.009037500000000002
+5,AggregateSand,"Aggregates and sand, from recycled resources, no heat treatment, bulk, loose",1600.0,0.006095311666666666
+6,AggregateSand,"Aggregates and sand, from recycled resources, with heat treatment, bulk, loose",1600.0,0.11877166666666666
+7,AggregateSand,"Aggregates and sand,  expanded clay, bulk, loose",1600.0,0.393208
+8,AggregateSand,"Aggregates,  expanded foamed glass, bulk, loose",1600.0,0.27763
+9,AggregateSand,"Aggregates and sand, from secondary resources, bulk, loose",1600.0,0.06332299999999999
+10,AggregateSand,"Aggregates and sand, mixture of recycled and secondary resources, bulk, loose",1600.0,0.014181253693490319
+11,Aluminium,"Aluminium General, European Mix, Inc Imports",2750.0,6.668717530534737
+12,Aluminium,"Aluminium sheet, European Mix, Inc Imports",2750.0,6.581175999999999
+13,Aluminium,"Aluminium foil, European Mix, Inc Imports",2750.0,7.468977999999998
+14,Aluminium,"Aluminium extruded profile, European Mix, Inc Imports",2750.0,6.8252419999999985
+15,Aluminium,"Aluminium, cast, European Mix, Inc Imports",2750.0,6.7151900884210525
+16,Aluminium,"Aluminium General, Worldwide",2750.0,13.055539991305551
+17,Aluminium,"Aluminium sheet, Worldwide",2750.0,12.95589499130555
+18,Aluminium,"Aluminium foil, Worldwide",2750.0,13.766894991305549
+19,Aluminium,"Aluminium extruded profile, Worldwide",2750.0,13.176394991305548
+20,Aluminium,"Aluminium cast, Worldwide",2750.0,13.186894991305548
+21,Aluminium,"Aluminium, North American",2750.0,5.651616031355548
+22,Aluminium,"Aluminium, Africa",2750.0,12.405749895609985
+23,Aluminium,"Aluminium, China",2750.0,14.593568656260635
+24,Aluminium,"Aluminium, Japan",2750.0,10.624512538347433
+25,Aluminium,"Aluminium, Middle East",2750.0,10.809800161935325
+26,Aluminium,"Aluminium, Oceania",2750.0,12.752084585609984
+27,Aluminium,"Aluminium, Other Asia",2750.0,15.869096795609984
+28,Aluminium,"Aluminium, Russia",2750.0,5.548323033609984
+29,Aluminium,"Aluminium, South America",2750.0,8.319000553609985
+30,Aluminium,"Aluminium, South Korea",2750.0,11.946853210535124
+31,Aluminium,"Aluminium, produced in Europe",2750.0,5.583938202538153
+32,Asphalt,"Asphalt, 3% (bitumen) binder content (by mass)",2350.0,50.091130474268496
+33,Asphalt,"Asphalt, 3.5% binder content",2350.0,51.125283227539505
+34,Asphalt,"Asphalt, 4% binder content",2350.0,52.1594359808105
+35,Asphalt,"Asphalt, 4.5% binder content",2350.0,53.1935887340815
+36,Asphalt,"Asphalt, 5% binder content",2350.0,54.227741487352496
+37,Asphalt,"Asphalt, 5.5% binder content",2350.0,55.261894240623505
+38,Asphalt,"Asphalt, 6% binder content",2350.0,56.29604699389449
+39,Asphalt,"Asphalt, 6.5% binder content",2350.0,57.3301997471655
+40,Asphalt,"Asphalt, 7% binder content",2350.0,58.364352500436496
+41,Asphalt,"Road surface, asphalt, 3% (bitumen) binder content (by mass)",2350.0,14.197263029945626
+42,Asphalt,"Road surface, asphalt, 3.5% binder content",2350.0,14.4427191859345
+43,Asphalt,"Road surface, asphalt, 4% binder content",2350.0,14.68817534192337
+44,Asphalt,"Road surface, asphalt, 4.5% binder content",2350.0,14.933631497912243
+45,Asphalt,"Road surface,  asphalt, 5% binder content",2350.0,15.179087653901114
+46,Asphalt,"Road surface,  asphalt, 5.5% binder content",2350.0,15.424543809889988
+47,Asphalt,"Road surface, , asphalt, 6% binder content",2350.0,15.669999965878857
+48,Asphalt,"Road surface,  asphalt, 6.5% binder content",2350.0,15.915456121867729
+49,Asphalt,"Road surface,  asphalt, 7% binder content",2350.0,16.1609122778566
+50,Bitumen,Straight-run bitumen,1050.0,0.19085999999999997
+51,Bitumen,Polymer modified bitumen (PMB),1050.0,0.32629
+52,Bitumen,Bitumen emulsion,1050.0,0.221666
+53,Cement,Cement - Average UK additions,1440.0,0.8321103996
+54,Cement,Cement CEM I - Portland cement,1440.0,0.912
+55,Cement,Cement CEM II-A-S - 13% GGBs - Portland-slag cement,1440.0,0.8028422399999999
+56,Cement,Cement CEM II/B-S - 28% GGBs - Portland-slag cement,1440.0,0.6716294399999999
+57,Cement,Cement CEM II/A-P - 13% natural pozzolanic ash - Portland-pozzolana cement,1440.0,0.797979447
+58,Cement,Cement CEM II/B-P 28% natural pozzolanic ash - Portland-pozzolana cement,1440.0,0.6611557319999999
+59,Cement,Cement CEM II/B-Q - 28% calcined pozzolanic ash - Portland-pozzolana cement,1440.0,0.0
+60,Cement,Cement CEM II/A-V - 13% fly ash siliceous - Portland-fly ash cement,1440.0,0.7979297999999999
+61,Cement,Cement CEM II/B-V - 28% fly ash siliceous - Portland-fly ash cement,1440.0,0.6610488
+62,Cement,Cement CEM II/A-W - 13% fly ash calcareous - Portland-fly ash cement,1440.0,0.7979297999999999
+63,Cement,Cement CEM II/B-W - 28% fly ash calcareous - Portland-fly ash cement,1440.0,0.6610488
+64,Cement,Cement CEM II/B-T - 28% burnt shale - Portland-burnt shale cement,1440.0,0.0
+65,Cement,Cement CEM II/A-L - 13% limestone - Portland-limestone cement,1440.0,0.7994675505
+66,Cement,Cement CEM II/B-L- 28% limestone - Portland-limestone cement,1440.0,0.6643608779999999
+67,Cement,Cement CEM II/A-LL - 13% limestone - Portland-limestone cement,1440.0,0.7994675505
+68,Cement,Cement CEM II/B-LL - 28% limestone - Portland-limestone cement,1440.0,0.6643608779999999
+69,Cement,Cement CEM II/A-M - 16% cement replacement - Portland-composite cement,1440.0,0.77357664
+70,Cement,Cement CEM II/B-M - 28% cement replacement- Portland-composite cement,1440.0,0.66633912
+71,Cement,Cement CEM III/A - 50.5% GGBS - Blast furnace cement,1440.0,0.47481023999999994
+72,Cement,Cement CEM III/B - 73% GGBS - Blast furnace cement,1440.0,0.27799103999999997
+73,Cement,Cement CEM III/C - 88% GGBS - Blast furnace cement,1440.0,0.14677824
+74,Cement,Cement CEM IV/A - 23% cement replacement - Pozzolanic cement,1440.0,0.7066758000000001
+75,Cement,Cement CEM IV/B - 46% cement replacement - Pozzolanic cement,1440.0,0.5013542999999999
+76,Cement,Cement CEM V/A - 24% GGBS and 24% cement replacement - Composite cement,1440.0,0.48866637599999996
+77,Cement,Cement CEM V/B - 36% GGBS and 36% cement replacement - Composite cement,1440.0,0.28363401450000003
+78,Cement,Mortar or screed (1:3 cement:sand mix) (Using CEM I cement),2100.0,0.20019406528189912
+79,Cement,Mortar or screed (1:4 cement:sand mix) (Using CEM I cement),2100.0,0.16322062350119906
+80,Cement,Mortar or screed (1:5 cement:sand mix) (Using CEM I cement),2100.0,0.13815010060362173
+81,Cement,Mortar or screed (1:6 cement:sand mix) (Using CEM I cement),2100.0,0.1200315424610052
+82,Cement,Mortar (1:½:4½ Cement:Lime:Sand mix) (Using CEM I cement),2100.0,0.16932758253461128
+83,Cement,Mortar (1:1:6 Cement:Lime:Sand mix) (Using CEM I cement),2100.0,0.1520485049833887
+84,Cement,Mortar (1:2:9 Cement:Lime:Sand mix) (Using CEM I cement),2100.0,0.1333344867358708
+85,Cement,Mortar or screed (1:3 cement:sand mix) (Using average UK Cement Mix),2100.0,0.18312566400949556
+86,Cement,Mortar or screed (1:4 cement:sand mix) (Using average UK Cement Mix),2100.0,0.14942673566235012
+87,Cement,Mortar or screed (1:5 cement:sand mix) (Using average UK Cement Mix),2100.0,0.12657655688370223
+88,Cement,Mortar or screed (1:6 cement:sand mix) (Using average UK Cement Mix),2100.0,0.11006264951681108
+89,Cement,Mortar or screed (1:½:4½ Cement:Lime:Sand mix) (Using average UK Cement Mix),2100.0,0.15707614221767838
+90,Cement,Mortar (1:1:6 Cement:Lime:Sand mix) (Using average UK Cement Mix),2100.0,0.14249360260996677
+91,Cement,Mortar (1:2:9 Cement:Lime:Sand mix) (Using average UK Cement Mix),2100.0,0.12670005625282582
+92,Cement,General concrete admixtures – Average of data collected,1300.0,1.6661666666666666
+93,Cement,"Concrete admixtures – Air entrainers, Europe",1300.0,0.527
+94,Cement,Concrete admixtures – Hardening Accelerators,1300.0,2.28
+95,Cement,"Concrete admixtures – Plasticisers and
+Superplasticisers",1300.0,1.88
+96,Cement,Concrete admixtures – Retarders,1300.0,1.31
+97,Cement,Concrete admixtures – Set Accelerators,1300.0,1.33
+98,Cement,Concrete admixtures – Water Resisting Admixtures,1300.0,2.67
+99,Clay,"Clay, Brick",1486.9758715476244,0.213
+100,Clay,"Clay brick, one brick, 215 x 65 x 102.5mm",1486.9758715476244,0.45369
+101,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar 1:3 cement:sand mix (Using CEM I cement)",1893.8125802310656,40.49742748711542
+102,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar 1:4 cement:sand mix (Using CEM I cement)",1893.8125802310656,38.04550450586899
+103,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar 1:5 cement:sand mix (Using CEM I cement)",1893.8125802310656,36.38293298739807
+104,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar 1:6 cement:sand mix (Using CEM I cement)",1893.8125802310656,35.181386500045605
+105,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar (1:½:4½ Cement:Lime:Sand mix) (Using CEM I cement)",1893.8125802310656,38.45049231545317
+106,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar (1:1:6 Cement:Lime:Sand mix) (Using CEM I cement)",1893.8125802310656,37.30461664626683
+107,Clay,"wall, clay brick, single skin, 102.5 mm with Mortar (1:2:9 Cement:Lime:Sand mix) (Using CEM I cement)",1893.8125802310656,36.06358175195775
+108,Clay,"wall, clay brick, double skin, 215 mm with Mortar 1:3 cement:sand mix (Using CEM I cement)",1970.232558139535,88.07540296735905
+109,Clay,"wall, clay brick, double skin, 215 mm with Mortar 1:4 cement:sand mix (Using CEM I cement)",1970.232558139535,81.86386474820144
+110,Clay,"wall, clay brick, double skin, 215 mm with Mortar 1:5 cement:sand mix (Using CEM I cement)",1970.232558139535,77.65201690140844
+111,Clay,"wall, clay brick, double skin, 215 mm with Mortar 1:6 cement:sand mix (Using CEM I cement)",1970.232558139535,74.60809913344887
+112,Clay,"wall, clay brick, double skin, 215 mm with Mortar (1:½:4½ Cement:Lime:Sand mix) (Using CEM I cement)",1970.232558139535,82.8898338658147
+113,Clay,"wall, clay brick, double skin, 215 mm with Mortar (1:1:6 Cement:Lime:Sand mix) (Using CEM I cement)",1970.232558139535,79.9869488372093
+114,Clay,"wall, clay brick, double skin, 215 mm with Mortar (1:2:9 Cement:Lime:Sand mix) (Using CEM I cement)",1970.232558139535,76.8429937716263
+115,Concrete,"Concrete, average UK mix",2380.0,246.0
+116,Concrete,Concrete GEN0 with CEM I cement,2370.0,166.93622861670002
+117,Concrete,Concrete GEN1 with CEM I cement,2370.0,230.34715197851628
+118,Concrete,Concrete GEN 2 with CEM I cement,2370.0,248.75413527444
+119,Concrete,Concrete GEN 3 with CEM I cement,2370.0,267.01340277922
+120,Concrete,Concrete RC20/25 with CEM I cement,2400.0,290.22770234538
+121,Concrete,Concrete RC25/30 with CEM I cement,2400.0,308.5726393167
+122,Concrete,Concrete RC28/35 with CEM I cement,2400.0,326.8441453167
+123,Concrete,Concrete RC32/40 with CEM I cement,2400.0,358.7580883406
+124,Concrete,Concrete RC35/45 with CEM I cement,2400.0,386.09803561688994
+125,Concrete,Concrete RC40/50 with CEM I cement,2400.0,413.49427997119204
+126,Concrete,Concrete PAV1 with CEM I cement,2400.0,326.83496644528503
+127,Concrete,Concrete PAV2 with CEM I cement,2400.0,358.767879136776
+128,Concrete,Concrete GEN0 with 15% PFA cement,2370.0,151.4656695332385
+129,Concrete,Concrete GEN1 with 15% PFA cement,2370.0,303.743419012296
+130,Concrete,Concrete GEN 2 with 15% PFA cement,2370.0,227.78962237109337
+131,Concrete,Concrete GEN 3 with 15% PFA cement,2370.0,244.3121886623887
+132,Concrete,Concrete RC20/25 with 15% PFA cement,2390.0,265.3147509643922
+133,Concrete,Concrete RC25/30 with 15% PFA cement,2390.0,282.0245101884219
+134,Concrete,Concrete RC28/35 with 15% PFA cement,2390.0,301.42189730354505
+135,Concrete,Concrete RC32/40 with 15% PFA cement,2390.0,332.39906258928335
+136,Concrete,Concrete RC35/45 with 15% PFA cement,2390.0,355.00695376998635
+137,Concrete,Concrete RC40/50 with 15% PFA cement,2390.0,379.9504974861088
+138,Concrete,Concrete PAV1 with 15% PFA cement,2390.0,300.92840245758094
+139,Concrete,Concrete PAV2 with 15% PFA cement,2390.0,332.8736349756392
+140,Concrete,Concrete GEN0 with 30% PFA cement,2370.0,134.138023449777
+141,Concrete,Concrete GEN1 with 30% PFA cement,2370.0,340.18270432868945
+142,Concrete,Concrete GEN 2 with 30% PFA cement,2370.0,202.54272109401836
+143,Concrete,Concrete GEN 3 with 30% PFA cement,2370.0,216.97172047401838
+144,Concrete,Concrete RC20/25 with 30% PFA cement,2380.0,235.32779929579948
+145,Concrete,Concrete RC25/30 with 30% PFA cement,2380.0,249.99280108839997
+146,Concrete,Concrete RC28/35 with 30% PFA cement,2380.0,269.14634008839994
+147,Concrete,Concrete RC32/40 with 30% PFA cement,2380.0,297.8154561123
+148,Concrete,Concrete RC35/45 with 30% PFA cement,2380.0,315.8899734821937
+149,Concrete,Concrete RC40/50 with 30% PFA cement,2380.0,337.7518743790086
+150,Concrete,Concrete PAV1 with 30% PFA cement,2380.0,268.33955603555563
+151,Concrete,Concrete PAV2 with 30% PFA cement,2380.0,298.59055625080106
+152,Concrete,Concrete GEN0 with 40% PFA cement,2370.0,123.965323338495
+153,Concrete,Concrete GEN1 with 40% PFA cement,2370.0,167.7041599120004
+154,Concrete,Concrete GEN 2 with 40% PFA cement,2370.0,180.257695228932
+155,Concrete,Concrete GEN 3 with 40% PFA cement,2370.0,192.83279112893203
+156,Concrete,Concrete RC20/25 with 40% PFA cement,2380.0,208.8747949944226
+157,Concrete,Concrete RC25/30 with 40% PFA cement,2380.0,221.4646790761467
+158,Concrete,Concrete RC28/35 with 40% PFA cement,2380.0,234.75584008840002
+159,Concrete,Concrete RC32/40 with 40% PFA cement,2380.0,259.29809611229996
+160,Concrete,Concrete RC35/45 with 40% PFA cement,2380.0,274.7589354821937
+161,Concrete,Concrete RC40/50 with 40% PFA cement,2380.0,293.4569103790086
+162,Concrete,Concrete PAV1 with 40% PFA cement,2380.0,234.06369103555573
+163,Concrete,Concrete PAV2 with 40% PFA cement,2380.0,259.8547525934282
+164,Concrete,Concrete GEN0 with 25% GGBS cement,2365.0,130.27435545093712
+165,Concrete,Concrete GEN1 with 25% GGBS cement,2365.0,243.31689901854568
+166,Concrete,Concrete GEN 2 with 25% GGBS cement,2360.0,191.62017940809002
+167,Concrete,Concrete GEN 3 with 25% GGBS cement,2360.0,205.20296215586774
+168,Concrete,Concrete RC20/25 with 25% GGBS cement,2395.0,225.5685764911062
+169,Concrete,Concrete RC25/30 with 25% GGBS cement,2395.0,239.73975745673994
+170,Concrete,Concrete RC28/35 with 25% GGBS cement,2395.0,257.08476021276135
+171,Concrete,Concrete RC32/40 with 25% GGBS cement,2395.0,288.2423084236683
+172,Concrete,Concrete RC35/45 with 25% GGBS cement,2395.0,309.83751714378997
+173,Concrete,Concrete RC40/50 with 25% GGBS cement,2395.0,331.3248846436858
+174,Concrete,Concrete PAV1 with 25% GGBS cement,2395.0,257.5958496186377
+175,Concrete,Concrete PAV2 with 25% GGBS cement,2395.0,288.3197492217678
+176,Concrete,Concrete GEN0 with 50% GGBS cement,2360.0,95.9233428901695
+177,Concrete,Concrete GEN1 with 50% GGBS cement,2360.0,216.63501314278975
+178,Concrete,Concrete GEN 2 with 50% GGBS cement,2350.0,137.13087863887202
+179,Concrete,Concrete GEN 3 with 50% GGBS cement,2350.0,146.253587043462
+180,Concrete,Concrete RC20/25 with 50% GGBS cement,2390.0,162.1621738368324
+181,Concrete,Concrete RC25/30 with 50% GGBS cement,2390.0,172.0060314645
+182,Concrete,Concrete RC28/35 with 50% GGBS cement,2390.0,186.2267304645
+183,Concrete,Concrete RC32/40 with 50% GGBS cement,2390.0,212.2368194884
+184,Concrete,Concrete RC35/45 with 50% GGBS cement,2390.0,227.58546664367762
+185,Concrete,Concrete RC40/50 with 50% GGBS cement,2390.0,242.69947209257148
+186,Concrete,Concrete PAV1 with 50% GGBS cement,2390.0,186.928586543085
+187,Concrete,Concrete PAV2 with 50% GGBS cement,2390.0,212.33789025795264
+188,Concrete,Concrete GEN0 with 70% GGBS cement,2360.0,80.2515375129864
+189,Concrete,Concrete GEN1 with 70% GGBS cement,2360.0,103.2008303451389
+190,Concrete,Concrete GEN 2 with 70% GGBS cement,2350.0,109.91843469757536
+191,Concrete,Concrete GEN 3 with 70% GGBS cement,2350.0,116.83262480327457
+192,Concrete,Concrete RC20/25 with 70% GGBS cement,2390.0,125.9870334483437
+193,Concrete,Concrete RC25/30 with 70% GGBS cement,2390.0,132.80737877269593
+194,Concrete,Concrete RC28/35 with 70% GGBS cement,2390.0,139.655529958188
+195,Concrete,Concrete RC32/40 with 70% GGBS cement,2390.0,151.56126328780235
+196,Concrete,Concrete RC35/45 with 70% GGBS cement,2390.0,161.76517160689247
+197,Concrete,Concrete RC40/50 with 70% GGBS cement,2390.0,171.8194699484471
+198,Concrete,Concrete PAV1 with 70% GGBS cement,2390.0,139.655529958188
+199,Concrete,Concrete PAV2 with 70% GGBS cement,2390.0,151.56906337352467
+200,Concrete,Concrete GEN0 with 14% limestone cement,2370.0,145.599689119794
+201,Concrete,Concrete GEN1 with 14% limestone cement,2370.0,365.51147222423333
+202,Concrete,Concrete GEN 2 with 14% limestone cement,2370.0,214.45999842019202
+203,Concrete,Concrete GEN 3 with 14% limestone cement,2380.0,229.9913705305608
+204,Concrete,Concrete RC20/25 with 14% limestone cement,2400.0,249.6673494744324
+205,Concrete,Concrete RC25/30 with 14% limestone cement,2400.0,265.98668621670004
+206,Concrete,Concrete RC28/35 with 14% limestone cement,2400.0,281.7236537767
+207,Concrete,Concrete RC32/40 with 14% limestone cement,2400.0,309.2021545306
+208,Concrete,Concrete RC35/45 with 14% limestone cement,2400.0,336.67453603688995
+209,Concrete,Concrete RC40/50 with 14% limestone cement,2400.0,366.8877514087783
+210,Concrete,Concrete PAV1 with 14% limestone cement,2400.0,280.53579334266357
+211,Concrete,Concrete PAV2 with 14% limestone cement,2400.0,310.29062259292414
+212,Concrete,Concrete GEN0 with 35% natural pozzolanic ash cement,2370.0,131.898310263495
+213,Concrete,Concrete GEN1 with 35% natural pozzolanic ash cement,2370.0,179.3392074020004
+214,Concrete,Concrete GEN 2 with 35% natural pozzolanic ash cement,2370.0,192.95047430893203
+215,Concrete,Concrete GEN 3 with 35% natural pozzolanic ash cement,2370.0,206.58330179893198
+216,Concrete,Concrete RC20/25 with 35% natural pozzolanic ash cement,2380.0,223.94747015192252
+217,Concrete,Concrete RC25/30 with 35% natural pozzolanic ash cement,2380.0,237.5950858236467
+218,Concrete,Concrete RC28/35 with 35% natural pozzolanic ash cement,2380.0,252.0014638384
+219,Concrete,Concrete RC32/40 with 35% natural pozzolanic ash cement,2380.0,278.61319471229996
+220,Concrete,Concrete RC35/45 with 35% natural pozzolanic ash cement,2380.0,295.38470148719364
+221,Concrete,Concrete RC40/50 with 35% natural pozzolanic ash cement,2380.0,315.6692737690086
+222,Concrete,Concrete PAV1 with 35% natural pozzolanic ash cement,2380.0,251.2518293730557
+223,Concrete,Concrete PAV2 with 35% natural pozzolanic ash cement,2380.0,279.21583952342826
+224,Concrete,Concrete GEN0 with average UK additions cement,2365.0,154.70376858352498
+225,Concrete,Concrete GEN1 with average UK additions cement,2365.0,212.54274319117866
+226,Concrete,Concrete GEN 2 with average UK additions cement,2360.0,229.15557295091995
+227,Concrete,Concrete GEN 3 with average UK additions cement,2360.0,245.87227142701997
+228,Concrete,Concrete RC20/25 with average UK additions cement,2385.0,267.17440387396493
+229,Concrete,Concrete RC25/30 with average UK additions cement,2385.0,283.85622707292544
+230,Concrete,Concrete RC28/35 with average UK additions cement,2385.0,300.56088659448835
+231,Concrete,Concrete RC32/40 with average UK additions cement,2385.0,329.71277709425453
+232,Concrete,Concrete RC35/45 with average UK additions cement,2385.0,354.6488543110589
+233,Concrete,Concrete RC40/50 with average UK additions cement,2385.0,379.512787982664
+234,Concrete,Concrete PAV1 with average UK additions cement,2385.0,300.5542574095774
+235,Concrete,Concrete PAV2 with average UK additions cement,2385.0,329.72250431383196
+236,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 100 kg per m3 of concrete,2380.0,123.86138079153335
+237,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 120 kg per m3 of concrete,2380.0,142.29660458512
+238,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 140 kg per m3 of concrete,2380.0,160.7318283787067
+239,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 160 kg per m3 of concrete,2380.0,179.16705217229338
+240,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 180 kg per m3 of concrete,2380.0,197.60227596587998
+241,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 200 kg per m3 of concrete,2380.0,216.0374997594667
+242,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 220 kg per m3 of concrete,2380.0,234.47272355305338
+243,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 240 kg per m3 of concrete,2380.0,252.90794734664
+244,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 260 kg per m3 of concrete,2380.0,271.5022715780866
+245,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 280 kg per m3 of concrete,2380.0,290.1210727999733
+246,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 300 kg per m3 of concrete,2380.0,308.7643510123
+247,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 320 kg per m3 of concrete,2380.0,327.4321062150667
+248,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 340 kg per m3 of concrete,2380.0,346.1243384082733
+249,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 360 kg per m3 of concrete,2380.0,364.62075467795995
+250,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 380 kg per m3 of concrete,2380.0,383.11717094764674
+251,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 400 kg per m3 of concrete,2380.0,401.6135872173333
+252,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 420 kg per m3 of concrete,2380.0,420.11000348702004
+253,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 440 kg per m3 of concrete,2380.0,438.6064197567067
+254,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 460 kg per m3 of concrete,2380.0,457.10283602639345
+255,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 480 kg per m3 of concrete,2380.0,475.59925229607995
+256,Concrete,Concrete - Ordinary Portland Cement (OPC) concrete - CEM I based - with total cementitious content of 500 kg per m3 of concrete,2380.0,494.09566856576663
+257,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 100 kg per m3 of concrete,2380.0,96.34898079153334
+258,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 120 kg per m3 of concrete,2380.0,109.28172458512
+259,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 140 kg per m3 of concrete,2380.0,122.21446837870667
+260,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 160 kg per m3 of concrete,2380.0,135.14721217229337
+261,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 180 kg per m3 of concrete,2380.0,148.07995596588
+262,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 200 kg per m3 of concrete,2380.0,161.01269975946667
+263,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 220 kg per m3 of concrete,2380.0,173.94544355305337
+264,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 240 kg per m3 of concrete,2380.0,186.87818734664
+265,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 260 kg per m3 of concrete,2380.0,199.97003157808672
+266,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 280 kg per m3 of concrete,2380.0,213.08635279997338
+267,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 300 kg per m3 of concrete,2380.0,226.22715101230006
+268,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 320 kg per m3 of concrete,2380.0,239.39242621506668
+269,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 340 kg per m3 of concrete,2380.0,252.5821784082733
+270,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 360 kg per m3 of concrete,2380.0,265.57611467795994
+271,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 380 kg per m3 of concrete,2380.0,278.5700509476467
+272,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 400 kg per m3 of concrete,2380.0,291.56398721733325
+273,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 420 kg per m3 of concrete,2380.0,304.55792348702
+274,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 440 kg per m3 of concrete,2380.0,317.5518597567067
+275,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 460 kg per m3 of concrete,2380.0,330.5457960263934
+276,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 480 kg per m3 of concrete,2380.0,343.53973229608
+277,Concrete,Concrete - 30% pfa cement replacement - with total cementitious content of 500 kg per m3 of concrete,2380.0,356.5336685657666
+278,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 100 kg per m3 of concrete,2380.0,87.17818079153332
+279,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 120 kg per m3 of concrete,2380.0,98.27676458511999
+280,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 140 kg per m3 of concrete,2380.0,109.37534837870666
+281,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 160 kg per m3 of concrete,2380.0,120.47393217229335
+282,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 180 kg per m3 of concrete,2380.0,131.57251596588
+283,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 200 kg per m3 of concrete,2380.0,142.67109975946667
+284,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 220 kg per m3 of concrete,2380.0,153.76968355305334
+285,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 240 kg per m3 of concrete,2380.0,164.86826734663998
+286,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 260 kg per m3 of concrete,2380.0,176.12595157808667
+287,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 280 kg per m3 of concrete,2380.0,187.40811279997337
+288,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 300 kg per m3 of concrete,2380.0,198.71475101229998
+289,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 320 kg per m3 of concrete,2380.0,210.0458662150667
+290,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 340 kg per m3 of concrete,2380.0,221.40145840827336
+291,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 360 kg per m3 of concrete,2380.0,232.56123467796002
+292,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 380 kg per m3 of concrete,2380.0,243.72101094764668
+293,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 400 kg per m3 of concrete,2380.0,254.88078721733334
+294,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 420 kg per m3 of concrete,2380.0,266.04056348702
+295,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 440 kg per m3 of concrete,2380.0,277.2003397567067
+296,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 460 kg per m3 of concrete,2380.0,288.36011602639337
+297,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 480 kg per m3 of concrete,2380.0,299.51989229607995
+298,Concrete,Concrete - 40% pfa cement replacement - with total cementitious content of 500 kg per m3 of concrete,2380.0,310.67966856576663
+299,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 100 kg per m3 of concrete,2380.0,79.90618079153333
+300,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 120 kg per m3 of concrete,2380.0,89.55036458512001
+301,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 140 kg per m3 of concrete,2380.0,99.19454837870666
+302,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 160 kg per m3 of concrete,2380.0,108.83873217229335
+303,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 180 kg per m3 of concrete,2380.0,118.48291596587998
+304,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 200 kg per m3 of concrete,2380.0,128.1270997594667
+305,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 220 kg per m3 of concrete,2380.0,137.77128355305334
+306,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 240 kg per m3 of concrete,2380.0,147.41546734664
+307,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 260 kg per m3 of concrete,2380.0,157.2187515780867
+308,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 280 kg per m3 of concrete,2380.0,167.04651279997339
+309,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 300 kg per m3 of concrete,2380.0,176.8987510123
+310,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 320 kg per m3 of concrete,2380.0,186.7754662150667
+311,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 340 kg per m3 of concrete,2380.0,196.67665840827334
+312,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 360 kg per m3 of concrete,2380.0,206.38203467796
+313,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 380 kg per m3 of concrete,2380.0,216.08741094764665
+314,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 400 kg per m3 of concrete,2380.0,225.79278721733334
+315,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 420 kg per m3 of concrete,2380.0,235.49816348702
+316,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 440 kg per m3 of concrete,2380.0,245.2035397567067
+317,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 460 kg per m3 of concrete,2380.0,254.9089160263934
+318,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 480 kg per m3 of concrete,2380.0,264.61429229608
+319,Concrete,Concrete - 50% ggbs cement replacement - with total cementitious content of 500 kg per m3 of concrete,2380.0,274.3196685657667
+320,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 100 kg per m3 of concrete,2380.0,62.32410079153333
+321,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 120 kg per m3 of concrete,2380.0,68.45186858512001
+322,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 140 kg per m3 of concrete,2380.0,74.57963637870668
+323,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 160 kg per m3 of concrete,2380.0,80.70740417229334
+324,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 180 kg per m3 of concrete,2380.0,86.83517196588001
+325,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 200 kg per m3 of concrete,2380.0,92.96293975946668
+326,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 220 kg per m3 of concrete,2380.0,99.09070755305333
+327,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 240 kg per m3 of concrete,2380.0,105.21847534664002
+328,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 260 kg per m3 of concrete,2380.0,111.50534357808667
+329,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 280 kg per m3 of concrete,2380.0,117.81668879997335
+330,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 300 kg per m3 of concrete,2380.0,124.15251101230001
+331,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 320 kg per m3 of concrete,2380.0,130.51281021506668
+332,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 340 kg per m3 of concrete,2380.0,136.89758640827338
+333,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 360 kg per m3 of concrete,2380.0,143.08654667796003
+334,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 380 kg per m3 of concrete,2380.0,149.2755069476467
+335,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 400 kg per m3 of concrete,2380.0,155.46446721733335
+336,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 420 kg per m3 of concrete,2380.0,161.65342748702
+337,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 440 kg per m3 of concrete,2380.0,167.8423877567067
+338,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 460 kg per m3 of concrete,2380.0,174.03134802639337
+339,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 480 kg per m3 of concrete,2380.0,180.22030829608005
+340,Concrete,Concrete - 70% ggbs cement replacement - with total cementitious content of 500 kg per m3 of concrete,2380.0,186.40926856576672
+341,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 100 kg per m3 of concrete,2380.0,115.78138079153335
+342,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 120 kg per m3 of concrete,2380.0,132.60060458511998
+343,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 140 kg per m3 of concrete,2380.0,149.41982837870668
+344,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 160 kg per m3 of concrete,2380.0,166.23905217229338
+345,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 180 kg per m3 of concrete,2380.0,183.05827596587997
+346,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 200 kg per m3 of concrete,2380.0,199.8774997594667
+347,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 220 kg per m3 of concrete,2380.0,216.69672355305335
+348,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 240 kg per m3 of concrete,2380.0,233.51594734664
+349,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 260 kg per m3 of concrete,2380.0,250.49427157808668
+350,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 280 kg per m3 of concrete,2380.0,267.4970727999733
+351,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 300 kg per m3 of concrete,2380.0,284.5243510123
+352,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 320 kg per m3 of concrete,2380.0,301.57610621506666
+353,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 340 kg per m3 of concrete,2380.0,318.6523384082733
+354,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 360 kg per m3 of concrete,2380.0,335.53275467796
+355,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 380 kg per m3 of concrete,2380.0,352.4131709476467
+356,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 400 kg per m3 of concrete,2380.0,369.29358721733325
+357,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 420 kg per m3 of concrete,2380.0,386.17400348702
+358,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 440 kg per m3 of concrete,2380.0,403.05441975670664
+359,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 460 kg per m3 of concrete,2380.0,419.9348360263934
+360,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 480 kg per m3 of concrete,2380.0,436.8152522960799
+361,Concrete,Concrete - average UK cement replacement rate - with total cementitious content of 500 kg per m3 of concrete,2380.0,453.6956685657666
+362,Concrete,1:1:2 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,497.00848373005635
+363,Concrete,1:1.5:3 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,370.08790107922056
+364,Concrete,1:2:4 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,297.41563198075806
+365,Concrete,1:2.5:5 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,250.33559053823254
+366,Concrete,1:3:6 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,219.18882006606262
+367,Concrete,1:4:8 cement:sand:aggregate with Ordinary Portland Cement (OPC) - CEM I,2380.0,176.45699329327752
+368,Concrete,1:1:2 cement:sand:aggregate with UK average cement replacement rate,2380.0,456.38087809625347
+369,Concrete,1:1.5:3 cement:sand:aggregate with UK average cement replacement rate,2380.0,340.50267030998975
+370,Concrete,1:2:4 cement:sand:aggregate with UK average cement replacement rate,2380.0,274.1530513355968
+371,Concrete,1:2.5:5 cement:sand:aggregate with UK average cement replacement rate,2380.0,231.16907891032557
+372,Concrete,1:3:6 cement:sand:aggregate with UK average cement replacement rate,2380.0,202.7525807498233
+373,Concrete,1:4:8 cement:sand:aggregate with UK average cement replacement rate,2380.0,163.74968051794713
+374,Concrete,"precast concrete pipe, DN600 unreinforced per kg",2350.0,0.14848781131455774
+375,Concrete,"precast concrete pipe, DN600 unreinforced",2350.0,72.46205192150417
+376,Concrete,"precast concrete paving (Blocks, Slabs, Channels and Kerbs)",2350.0,0.13110407871677293
+377,Concrete,"concrete block, medium density solid, average strength, per kg",1425.0,0.09165817198675831
+378,Concrete,"concrete block, high density solid, average strength, per kg",1950.0,0.09165817198675831
+379,Concrete,precast concrete beams and columns -steel reinforced with world average steel,2400.0,0.24697299691848126
+380,Concrete,"precast hollowcore concrete flooring, 150mm, prestressed steel reinforced with world average steel",2000.0,54.8537284049093
+381,Concrete,AAC concrete block,600.0,0.28
+382,Concrete,"concrete block, solid, medium density, average strength, 75 mm thickness, 440 mm length, 215 mm width.",1409.4432699083861,0.9165817198675831
+383,Concrete,"concrete block, solid, medium density, average strength, 90 mm thickness, 440 mm length, 215 mm width.",1350.7164669955368,1.0540689778477206
+384,Concrete,"concrete block, solid, medium density, average strength, 100 mm thickness, 440 mm length, 215 mm width.",1458.7737843551795,1.2648827734172647
+385,Concrete,"concrete block, solid, medium density, average strength, 140 mm thickness, 440 mm length, 215 mm width.",1457.263666565992,1.7690027193444355
+386,Concrete,"concrete block, solid, medium density, average strength, 190 mm thickness, 440 mm length, 215 mm width.",1363.0800044508735,2.2456252136755785
+387,Concrete,"concrete block, solid, high density, average strength, 75 mm thickness, 440 mm length, 215 mm width.",2015.5038759689921,1.310711859410644
+388,Concrete,"concrete block, solid, high density, average strength, 90 mm thickness, 440 mm length, 215 mm width.",2020.2020202020203,1.5765205581722428
+389,Concrete,"concrete block, solid, high density, average strength, 100 mm thickness, 440 mm length, 215 mm width.",1987.3150105708244,1.7231736333510563
+390,Concrete,"concrete block, solid, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width.",2008.45665961945,2.438107374847771
+391,Concrete,"concrete block, solid, high density, average strength, 190 mm thickness, 440 mm length, 215 mm width.",2000.1112718370982,3.2951112829239615
+392,Concrete,"concrete block, solid, high density, average strength, 215 mm thickness, 440 mm length, 215 mm width.",1991.248340626383,3.7121559654637117
+393,Concrete,"concrete block, cellular, high density, average strength, 100 mm thickness, 440 mm length, 215 mm width.",1564.4820295983086,1.3565409454040231
+394,Concrete,"concrete block, cellular, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width.",1608.2754454847475,1.9523190633179521
+395,Concrete,"concrete block, hollowcore, high density, average strength, 140 mm thickness, 440 mm length, 215 mm width.",1479.9154334038053,1.796500170940463
+396,Concrete,"concrete block, hollowcore, high density, average strength, 190 mm thickness, 440 mm length, 215 mm width.",1307.4440859018582,2.15396704168882
+397,Concrete,"concrete block, hollowcore, high density, average strength, 215 mm thickness, 440 mm length, 215 mm width.",1278.3322680564434,2.383112471655716
+398,Concrete,"AAC concrete block, average strength, 100 mm thickness, 440 mm length, 215 mm width.",600.0,1.5892800000000005
+399,Concrete,"AAC concrete block, average strength, 140 mm thickness, 440 mm length, 215 mm width.",600.0,2.2249920000000007
+400,Concrete,"AAC concrete block, average strength, 150 mm thickness, 440 mm length, 215 mm width.",600.0,2.3839200000000007
+401,Concrete,"AAC concrete block, average strength, 215 mm thickness, 440 mm length, 215 mm width.",600.0,3.416952
+402,Concrete,"75 mm thickness wall, single skin concrete block, solid, medium density, average strength, inc. mortar,  Not inc. construction waste",1473.3333333333335,10.879633745438422
+403,Concrete,"90 mm thickness wall, single skin concrete block, solid, medium density, average strength, inc. mortar,  Not inc. construction waste",1417.7777777777778,12.597269634592312
+404,Concrete,"100 mm thickness wall, single skin concrete block, solid, medium density, average strength, inc. mortar,  Not inc. construction waste",1520.0,14.933916463189433
+405,Concrete,"140 mm thickness wall, single skin concrete block, solid, medium density, average strength, inc. mortar,  Not inc. construction waste",1518.5714285714284,20.889151414067854
+406,Concrete,"190 mm thickness wall, single skin concrete block, solid, medium density, average strength, inc. mortar,  Not inc. construction waste",1429.4736842105265,26.79792072188768
+407,Concrete,"75 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2046.6666666666667,14.82093514086903
+408,Concrete,"90 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2051.1111111111113,17.821785437837534
+409,Concrete,"100 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2020.0,19.516825062527353
+410,Concrete,"140 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2040.0,27.580197969101214
+411,Concrete,"190 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2032.1052631578948,37.292781414371504
+412,Concrete,"215 mm thickness wall, single skin concrete block, solid, high density, average strength, inc. mortar,  Not inc. construction waste",2023.7209302325582,42.03450042202321
+413,Concrete,"100 mm thickness wall, single skin concrete block, cellular, high density, average strength, inc. mortar,  Not inc. construction waste",1620.0,15.850498183057018
+414,Concrete,"140 mm thickness wall, single skin concrete block, cellular, high density, average strength, inc. mortar,  Not inc. construction waste",1661.4285714285713,22.72231485380302
+415,Concrete,"140 mm thickness wall, single skin concrete block, hollowcore, high density, average strength, inc. mortar,  Not inc. construction waste",1539.9999999999998,21.164125930028135
+416,Concrete,"190 mm thickness wall, single skin concrete block, hollowcore, high density, average strength, inc. mortar,  Not inc. construction waste",1376.842105263158,25.881339002020095
+417,Concrete,"215 mm thickness wall, single skin concrete block, hollowcore, high density, average strength, inc. mortar,  Not inc. construction waste",1349.3023255813955,28.744065483943253
+418,Concrete,"100 mm thickness wall, single skin AAC concrete block, average strength, inc. mortar,  Not inc. construction waste",707.6,18.177888729016793
+419,Concrete,"140 mm thickness wall, single skin AAC concrete block, average strength, inc. mortar,  Not inc. construction waste",707.6,25.449044220623506
+420,Concrete,"150 mm thickness wall, single skin AAC concrete block, average strength, inc. mortar,  Not inc. construction waste",707.6000000000001,27.26683309352519
+421,Concrete,"215 mm thickness wall, single skin AAC concrete block, average strength, inc. mortar,  Not inc. construction waste",707.6,39.08246076738609
+422,Concrete,precast concrete beams and columns -steel reinforced with European recycled steel,2400.0,0.19394799691848133
+423,Concrete,"precast hollowcore concrete flooring, 150mm, prestressed steel reinforced  with European recycled steel",2000.0,51.3260812049093
+424,Glass,"Single pane, per mm glass, 1 mm of glass, ex frame",2500.0,3.592417659624192
+425,Glass,"Single pane, 3 mm of glass, ex frame",2500.0,10.777252978872575
+426,Glass,"Single pane, 4 mm of glass, ex frame",2500.0,14.369670638496768
+427,Glass,"Single pane, 5 mm of glass, ex frame",2500.0,17.96208829812096
+428,Glass,"Single pane, 6 mm of glass, ex frame",2500.0,21.55450595774515
+429,Glass,"Single pane, 7 mm of glass, ex frame",2500.0,25.146923617369342
+430,Glass,"Single pane, 8 mm of glass, ex frame",2500.0,28.739341276993535
+431,Glass,"Single pane, 10 mm of glass, ex frame",2500.0,35.92417659624192
+432,Glass,"Single pane, 12 mm of glass, ex frame",2500.0,43.1090119154903
+433,Glass,"Double glazed unit, per mm glass, 1 mm of glass, ex cavity and ex frame",2500.0,4.064000034725387
+434,Glass,"Double glazed unit, 8 mm of glass, ex cavity and ex frame",2500.0,32.5120002778031
+435,Glass,"Double glazed unit, 10 mm of glass, ex cavity and ex frame",2500.0,40.64000034725387
+436,Glass,"Double glazed unit, 12 mm of glass, ex cavity and ex frame",2500.0,48.768000416704645
+437,Glass,"Double glazed unit, 14 mm of glass, ex cavity and ex frame",2500.0,56.896000486155415
+438,Glass,"Double glazed unit, 16 mm of glass, ex cavity and ex frame",2500.0,65.0240005556062
+439,Glass,"Double glazed unit, 20 mm of glass, ex cavity and ex frame",2500.0,81.28000069450773
+440,Glass,"Triple glazed unit, per mm glass, 1 mm of glass, ex cavity and ex frame",2500.0,4.3674774216003005
+441,Glass,"Triple glazed unit, 12 mm of glass, ex cavity and ex frame",2500.0,52.409729059203606
+442,Glass,"Triple glazed unit, 15 mm of glass, ex cavity and ex frame",2500.0,65.51216132400451
+443,Glass,"Triple glazed unit, 18 mm of glass, ex cavity and ex frame",2500.0,78.6145935888054
+444,Glass,"Triple glazed unit, 20 mm of glass, ex cavity and ex frame",2500.0,87.349548432006
+445,Glass,"Triple glazed unit, 24 mm of glass, ex cavity and ex frame",2500.0,104.81945811840721
+446,Glass,"Multi layer safety, filled core, fire resistant, toughened, per mm glass, 1 mm of glass, ex frame",2500.0,5.204478090770107
+447,Glass,"Multi layer safety, filled core, fire resistant, toughened, 10 mm of glass, ex frame",2500.0,52.044780907701075
+448,Glass,"Multi layer safety, filled core, fire resistant, toughened, 12 mm of glass, ex frame",2500.0,62.45373708924129
+449,Glass,"Multi layer safety, filled core, fire resistant, toughened, 14 mm of glass, ex frame",2500.0,72.8626932707815
+450,Glass,"Multi layer safety, filled core, fire resistant, toughened, 16 mm of glass, ex frame",2500.0,83.27164945232171
+451,Glass,"Multi layer safety, per mm glass, 1 mm of glass, ex frame",2500.0,3.888788758800954
+452,Glass,"Multi layer safety, 8 mm of glass, ex frame",2500.0,31.110310070407632
+453,Glass,"Multi layer safety, 10 mm of glass, ex frame",2500.0,38.88788758800954
+454,Glass,"Multi layer safety, 12 mm of glass, ex frame",2500.0,46.665465105611446
+455,Glass,"Multi layer safety, 16 mm of glass, ex frame",2500.0,62.220620140815264
+456,Glass,"Toughened, per mm glass, 1 mm of glass, ex frame",2500.0,4.1680742554059576
+457,Glass,"Toughened, 2 mm of glass, ex frame",2500.0,8.336148510811915
+458,Glass,"Toughened, 3 mm of glass, ex frame",2500.0,12.504222766217872
+459,Glass,"Toughened, 4 mm of glass, ex frame",2500.0,16.67229702162383
+460,Glass,"Toughened, 5 mm of glass, ex frame",2500.0,20.84037127702979
+461,Glass,"Toughened, 6 mm of glass, ex frame",2500.0,25.008445532435744
+462,Glass,"Toughened, 8 mm of glass, ex frame",2500.0,33.34459404324766
+463,Glass,"Toughened, 10 mm of glass, ex frame",2500.0,41.68074255405958
+464,Glass,"Toughened, 12 mm of glass, ex frame",2500.0,50.01689106487149
+465,Glass,"Toughened, 15 mm of glass, ex frame",2500.0,62.52111383108936
+466,Glass,"Roof or skylight, inc frame",2500.0,268.0
+467,Glass,"Glass, General, per kg",2500.0,1.4369670638496768
+468,Glass,"Glass, Glazing, Double, per kg",2500.0,1.6256000138901547
+469,Glass,"Glass, Glazing triple, per kg",2500.0,1.7469909686401202
+470,Glass,"Glass, Toughened, per kg",2500.0,1.667229702162383
+471,Glass,"Glass, Multi layer safety, filled core, fire resistant, toughened, per kg",2500.0,2.081791236308043
+472,Glass,"Glass, Multi layer safety, unfilled, per kg",2500.0,1.5555155035203816
+473,Glass,"Glass, sky light or roof, with frame, per kg",2500.0,3.1018518518518516
+474,Steel,"Steel, UO Pipe",7850.0,3.02
+475,Steel,"Steel, Tin-free Electrolytic Chrome Coated Steel Sheet - Tin-free (ECCS)",7850.0,2.89
+476,Steel,"Steel, electrogalvanized steel",7850.0,3.03
+477,Steel,"Steel, welded pipe",7850.0,2.78
+478,Steel,"Steel, Organic coated sheet",7850.0,3.06
+479,Steel,"Steel, Tinplate",7850.0,2.85
+480,Steel,"Steel, finished cold-rolled coil",7850.0,2.73
+481,Steel,"Steel, hot-dip galvanized steel",7850.0,2.76
+482,Steel,"Steel, Plate",7850.0,2.46
+483,Steel,"steel, Cold Rolled Coil",7850.0,2.53
+484,Steel,"Steel, pickled hot-rolled coil",7850.0,2.42
+485,Steel,"Steel, Wire rod",7850.0,2.27
+486,Steel,"Steel, Hot Rolled Coil",7850.0,2.28
+487,Steel,"Steel, Rebar",7850.0,1.99
+488,Steel,"Steel, Section",7850.0,1.55
+489,Steel,"Steel, Engineering steel",7850.0,1.27
+490,Steel,"Steel, global seamless tube",7850.0,2.13
+491,Steel,"Steel rebar, recycled, Europe EAF mid range",7850.0,0.73
+492,Timber,Timber - Average of all data - No Carbon Storage,623.5850835089922,0.49282614286872206
+493,Timber,"Timber, Chipboard - No Carbon Storage",590.0166666666667,0.4001637305970765
+495,Timber,"Timber, CLT - No Carbon Storage",506.5,0.4373444786654728
+496,Timber,"Timber, Fibreboard - No Carbon Storage",600.00741408,0.7153065020437609
+497,Timber,"Timber, Glulam - No Carbon Storage",633.7085254,0.512127048559993
+498,Timber,"Timber, Hardboard - No Carbon Storage",807.7056,0.8152475357357929
+499,Timber,"Timber, Hardwood - No Carbon Storage",742.1111111111111,0.3055605438580264
+500,Timber,"Timber, Laminate - No Carbon Storage",622.5,0.6977633702033249
+501,Timber,"Timber, Laminated strand lumber - No Carbon Storage",615.5382345,0.5040791661821618
+502,Timber,"Timber, Laminated veneer lumber - No Carbon Storage",525.9209972533333,0.38980151409700864
+503,Timber,"Timber, MDF - No Carbon Storage",756.059955656,0.8564543216570808
+505,Timber,"Timber, OSB - No Carbon Storage",603.1255931428572,0.4550691214456056
+506,Timber,"Timber, Parquet - No Carbon Storage",599.5025,0.8112189857037869
+507,Timber,"Timber, Particle Board - No Carbon Storage",686.8461538461538,0.6642659428279294
+508,Timber,"Timber, Plywood - No Carbon Storage",507.5017987,0.6814642859887556
+509,Timber,"Timber, Softwood - No Carbon Storage",538.2864258064516,0.26259445783377083
+511,Timber,"Timber, Wood-plastic composite - No Carbon Storage",825.0,1.44
+512,Timber,Timber - Average of all data - Including Carbon Storage,623.5850835089922,-1.0308927795461957
+513,Timber,"Timber, Chipboard - Including Carbon Storage",590.0166666666667,-1.1206685847216213
+515,Timber,"Timber, CLT - Including Carbon Storage",506.5,-1.204069478843721
+516,Timber,"Timber, Fibreboard - Including Carbon Storage",600.00741408,-0.8631677194336788
+517,Timber,"Timber, Glulam - Including Carbon Storage",633.7085254,-0.8957434639928971
+518,Timber,"Timber, Hardboard - Including Carbon Storage",807.7056,-0.8239635827707521
+519,Timber,"Timber, Hardwood - Including Carbon Storage",742.1111111111111,-1.2859742052506555
+520,Timber,"Timber, Laminate - Including Carbon Storage",622.5,-0.5804361771517365
+521,Timber,"Timber, Laminated strand lumber - Including Carbon Storage",615.5382345,-1.084075631048391
+522,Timber,"Timber, Laminated veneer lumber - Including Carbon Storage",525.9209972533333,-1.2465890520613876
+523,Timber,"Timber, MDF - Including Carbon Storage",756.059955656,-0.6437453568975513
+525,Timber,"Timber, OSB - Including Carbon Storage",603.1255931428572,-1.0472802009732176
+526,Timber,"Timber, Parquet - Including Carbon Storage",599.5025,-0.8130168084596529
+527,Timber,"Timber, Particle Board - Including Carbon Storage",686.8461538461538,-0.8149986646719183
+528,Timber,"Timber, Plywood - Including Carbon Storage",507.5017987,-0.9330684026908289
+529,Timber,"Timber, Softwood - Including Carbon Storage",538.2864258064516,-1.2918606818881706
+531,Timber,"Timber, Wood-plastic composite - Including Carbon Storage",825.0,0.58
