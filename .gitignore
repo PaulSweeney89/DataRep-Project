@@ -2,7 +2,7 @@
 .ipynb_checkpoints
 
 # pycache
-__pycache__
+__pycache__/
 
 # Virtual Environment
-.venv
+venv/
