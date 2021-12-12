@@ -1,22 +1,36 @@
 <html>
     <head>
+        <title></title>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <style>
+            .tableButton {
+                display: none;
+            }
 
+            .carbonTable, tr:hover > td:last-child button {
+                display: block;
+            }
+
+            .carbonTable, tr:hover > td:nth-last-child(2) button {
+                display: block;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation Bar -->
         <nav class="navbar">
-           <a class="navbar-brand" href="#">
+           <a class="navbar-brand" href="">
                 <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Embodied Carbon
             </a>
             <a class="nav-link" href="#">References</a>
         </nav> 
 
-        <!-- Input Update Form -->
-        <div id="inputUpdate" style="display:none">
-            <h3>Input / Update Database</h3>
+        <!-- Create Update Form -->
+        <div id="inputUpdate" style="display:block">
+            <h3 id="createHead">Create New Entry</h3>
+            <h3 id="updateHead">Update Entry</h3>
             <table id="inputUpdateForm">
                 <tr>
                     <td>ID</td>
@@ -54,7 +68,7 @@
                 </tr>
 
                 <tr>
-                    <td></td><td>
+                    <td>
                         <button id="create-button" onclick="doCreate()">Create</button>     
                         <button id="update-button" onclick="doUpdate()">update</button>
                     </td>
@@ -62,17 +76,17 @@
             </table>
         </div>
 
-        <!-- Show / Hide Buttons -->
-        <button id="showInputUpdateButton" onclick="showInputUpdate()">Input / Update</button>
-        <button id="showFullTableButton" onclick="showFullTable()">Show Full Table</button>
-        <button id="hideFullTableButton" onclick="hideFullTable()" style="display:none">Hide Full Table</button>
-
         <!-- Full Table -->
-        <div id="fullTable" style="display:none">
+        <div id="fullTable" style="display:block">
             <table id="carbonTable" class="table table-hover table-striped">
                 <tr>
                 <thead class="thead-dark">
-                    <th>ID</th><th>Material</th><th>Name</th><th>Density</th><th>EmbodiedCarbon</th>
+                    <th style="width: 5%">ID</th>
+                    <th style="width: 10%">Material</th>
+                    <th style="width: 45%">Name</th>
+                    <th style="width: 15%">Density</th>
+                    <th style="width: 15%">EmbodiedCarbon</th>
+                    <th style="width: 10%" colspan="2">Edit</th>
                 </thead>
                 </tr>
             </table>
@@ -80,30 +94,32 @@
 
         <script>
 
-            function showFullTable() {
-                document.getElementById('showFullTableButton').style.display = "none"
-                document.getElementById('hideFullTableButton').style.display = "block"
-                document.getElementById('fullTable').style.display = "block"
+            host = window.location.origin
+
+            function showUpdate(thisElem){
+                var rowElement = thisElem.parentNode.parentNode;
+                carbon = readFromRow(rowElement)
+                populateForm(carbon)
+
+                document.getElementById('updateHead').style.display = "block"
+                document.getElementById('createHead').style.display = "none"
+                document.getElementById('update-button').style.display = "block"
+                document.getElementById('create-button').style.display = "none"
+                // document.getElementById('inputUpdate').style.display = "block"
             }
 
-            function hideFullTable() {
-                document.getElementById('showFullTableButton').style.display = "block"
-                document.getElementById('hideFullTableButton').style.display = "none"
-                document.getElementById('fullTable').style.display = "none"
-            }
-
-            function showInputUpdate() {
-                document.getElementById('inputUpdate').style.display = "block"
-                document.getElementById('fullTable').style.display = "none"
-                document.getElementById('hideFullTableButton').style.display = "none"
-                document.getElementById('showInputUpdateButton').style.display = "none"
-                document.getElementById('showFullTableButton').style.display = "block"
+            function showCreate(){
+                document.getElementById('updateHead').style.display = "none"
+                document.getElementById('createHead').style.display = "block"
+                document.getElementById('update-button').style.display = "none"
+                document.getElementById('create-button').style.display = "block"
+                // document.getElementById('inputUpdate').style.display = "block"
             }
 
             function populateTable(){
                 //ajax getAll
                $.ajax({
-                   url:'http://127.0.0.1:5000/iceData',
+                   url:host+'/iceData',
                    method:'GET',
                    datatype:'JSON',
                    success:function(results){
@@ -132,9 +148,11 @@
                 cell4.innerHTML = carbon.Density
                 cell5 = rowElem.insertCell(4)
                 cell5.innerHTML = carbon.EmbodiedCarbon
+                cell6 = rowElem.insertCell(5)
+                cell6.innerHTML = '<button onclick="showUpdate(this)" class="tableButton">Update</button>'
+                cell7 = rowElem.insertCell(6)
+                cell7.innerHTML = '<button onclick="doDelete(this)" class="tableButton">Delete</button>'
             }
-
-    
 
             function readFromRow(rowElement){
                 carbon = {}
@@ -183,8 +201,8 @@
                     success:function(result){
                         console.log(result) 
                         addToTable(carbon)
-                        showFullTable()
                         clearForm()
+                        window.location.reload()
                     },
                     error:function(xhr,status,error){
                         console.log("error"+error)
@@ -195,6 +213,8 @@
             function doUpdate(){
                 carbon = getCarbonFromForm()
                 updateServer(carbon)  
+
+                showCreate()
             }
 
             function updateServer(carbon){
@@ -207,7 +227,6 @@
                     success: function (result) {
                         console.log(result)
                         updateTableRow(carbon)
-                        // showFullTable()
                         clearForm()
                     },
                     error: function (xhr, status, error) {
@@ -257,6 +276,7 @@
             }
 
             populateTable()
+            showCreate()
         </script>
     </body>
 </html>

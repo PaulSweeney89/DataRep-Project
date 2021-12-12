@@ -1,0 +1,8 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pycache
+__pycache__
+
+# Virtual Environment
+.venv
