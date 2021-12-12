@@ -1,9 +1,9 @@
 from flask import Flask, url_for, request, redirect, abort, jsonify
-from flask_cors import CORS
+# from flask_cors import CORS
 from carbonDao import carbonDao
 
 app = Flask(__name__, static_url_path='', static_folder='staticpages')
-CORS(app)
+# CORS(app)
 
 
 @app.route('/')
