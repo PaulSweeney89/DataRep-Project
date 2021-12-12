@@ -1,6 +1,6 @@
 # Test application for pythonanywhere
 
-from flask import flask
+from flask import Flask
 
 app = Flask(__name__, static_url_path='', static_folder='.')
 
@@ -12,5 +12,5 @@ def index():
 def getID(id):
 	return str(id)
 
-if __name__ == '__main__' :
+if __name__ == '__main__':
 	app.run(debug = True)
