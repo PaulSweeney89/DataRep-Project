@@ -7,3 +7,6 @@ __pycache__/
 # Virtual Environment
 .venv
 venv/
+
+# Database Config File
+*config.py

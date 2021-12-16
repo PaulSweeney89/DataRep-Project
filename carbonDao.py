@@ -12,6 +12,7 @@ class CarbonDao:
         )
         #print ("connection made")
 
+
     def create(self, elem):
         cursor = self.db.cursor()
         sql = "insert into iceData (ID, Material, Name, Density, EmbodiedCarbon) values (%s,%s,%s,%s,%s)"
@@ -26,6 +27,7 @@ class CarbonDao:
         self.db.commit()
         return cursor.lastrowid
 
+
     def getAll(self):
         cursor = self.db.cursor()
         sql = 'SELECT * FROM iceData'
@@ -38,6 +40,7 @@ class CarbonDao:
             returnArray.append(resultAsDict)
 
         return returnArray
+
 
     def findById(self, ID):
         cursor = self.db.cursor()
@@ -62,6 +65,7 @@ class CarbonDao:
        self.db.commit()
        return elem
 
+
     def delete(self, ID):
        cursor = self.db.cursor()
        sql = 'DELETE FROM iceData WHERE ID = %s'
@@ -69,7 +73,6 @@ class CarbonDao:
        cursor.execute(sql, values)
        
        return {}
-
 
 
     def convertToDict(self, result):

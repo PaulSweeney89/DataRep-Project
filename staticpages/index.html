@@ -1,8 +1,21 @@
 <html>
     <head>
         <title></title>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    
+            <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+
+            <script>
+                // Search Function
+                $(document).ready(function(){
+                  $("#searchInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#carbonTable tr").filter(function() {
+                      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                  });
+                });
+            </script>  
         <style>
             .tableButton {
                 display: none;
@@ -20,14 +33,16 @@
     <body>
         <!-- Navigation Bar -->
         <nav class="navbar">
-           <a class="navbar-brand" href="">
+           <a class="navbar-brand" href="/index.html">
                 <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Embodied Carbon
             </a>
-            <a class="nav-link" href="#">References</a>
+            <a class="nav-link" href="references.html">References</a>
         </nav> 
 
         <!-- Create Update Form -->
+        <h1 align="center">Embodied Carbon Database</h2>
+        <p></p>
         <div id="inputUpdate" style="display:block">
             <h3 id="createHead">Create New Entry</h3>
             <h3 id="updateHead">Update Entry</h3>
@@ -75,20 +90,26 @@
                 </tr>
             </table>
         </div>
+        <div align="right">
+            <input type="text" id="searchInput" placeholder="Search Keyword">
+        </div>
 
         <!-- Full Table -->
-        <div id="fullTable" style="display:block">
+        <div id="fullTable" style="display:block" style="width:100%">
             <table id="carbonTable" class="table table-hover table-striped">
-                <tr>
                 <thead class="thead-dark">
-                    <th style="width: 5%">ID</th>
-                    <th style="width: 10%">Material</th>
-                    <th style="width: 45%">Name</th>
-                    <th style="width: 15%">Density</th>
-                    <th style="width: 15%">EmbodiedCarbon</th>
-                    <th style="width: 10%" colspan="2">Edit</th>
+                    <tr>
+                        <th style="width: 5%">ID</th>
+                        <th style="width: 10%">Material</th>
+                        <th style="width: 45%">Name</th>
+                        <th style="width: 15%">Density</th>
+                        <th style="width: 15%">EmbodiedCarbon</th>
+                        <th style="width: 10%" colspan="2">Edit</th>
+                    </tr>
                 </thead>
-                </tr>
+                <tbody>
+
+                </tbody>
             </table>
         </div>
 
@@ -190,7 +211,7 @@
 
             function doCreate(){
                 console.log("in doCreate")
-                carbon= getCarbonFromForm()
+                carbon = getCarbonFromForm()
                 console.log(carbon)
                 $.ajax({
                     url:"/iceData",
