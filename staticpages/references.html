@@ -1,32 +1,11 @@
 <html>
     <head>
         <title></title>
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    
-            <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"> 
 
-            <script>
-                // Search Function
-                $(document).ready(function(){
-                  $("#searchInput").on("keyup", function() {
-                    var value = $(this).val().toLowerCase();
-                    $("#carbonTable tr").filter(function() {
-                      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                    });
-                  });
-                });
-            </script>  
         <style>
-            .tableButton {
-                display: none;
-            }
-
-            .carbonTable, tr:hover > td:last-child button {
-                display: block;
-            }
-
-            .carbonTable, tr:hover > td:nth-last-child(2) button {
-                display: block;
+            p {
+                margin: 20px;
             }
         </style>
     </head>
@@ -47,10 +26,12 @@
             The latest version of the ICE Database can be downloaded from the following <a href="https://circularecology.com/embodied-carbon-footprint-database.html">link<a><br><br>
 
             <b>Useful additional resoures:</b><br>
-            <li><a href="https://www.istructe.org/IStructE/media/Public/Resources/istructe-how-to-calculate-embodied-carbon.pdf">The Institution of Structural Engineer's Guide - How to Calculate
-Embodied Carbon<a>
-            <li><a href="https://www.igbc.ie/epd-search/">EPD Ireland’s Environmental Product Declarations </a>
-            <li><a href="https://www.eco-platform.org/epd-data.html">ECO Platform </a>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.istructe.org/IStructE/media/Public/Resources/istructe-how-to-calculate-embodied-carbon.pdf">The Institution of Structural Engineer's Guide - How to Calculate
+    Embodied Carbon<a>
+                <li class="list-group-item"><a href="https://www.igbc.ie/epd-search/">EPD Ireland’s Environmental Product Declarations </a>
+                <li class="list-group-item"><a href="https://www.eco-platform.org/epd-data.html">ECO Platform </a>
+            </ul>
         </p>
 
     </body>

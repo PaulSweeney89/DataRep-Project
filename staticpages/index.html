@@ -28,6 +28,10 @@
             .carbonTable, tr:hover > td:nth-last-child(2) button {
                 display: block;
             }
+
+            #tableButton {
+                margin: 0px 0px;
+            }
         </style>
     </head>
     <body>
@@ -96,7 +100,7 @@
 
         <!-- Full Table -->
         <div id="fullTable" style="display:block" style="width:100%">
-            <table id="carbonTable" class="table table-hover table-striped">
+            <table id="carbonTable" class="table table-sm">
                 <thead class="thead-dark">
                     <tr>
                         <th style="width: 5%">ID</th>
@@ -138,7 +142,6 @@
             }
 
             function populateTable(){
-                //ajax getAll
                $.ajax({
                    url:host+'/iceData',
                    method:'GET',
@@ -155,7 +158,6 @@
             }
 
             function addToTable(carbon){
-                //console.log("working so far")
                 tableElem = document.getElementById("carbonTable")
                 rowElem = tableElem.insertRow(-1)
                 rowElem.setAttribute("id", carbon.ID)
@@ -280,7 +282,6 @@
                 rowElement.cells[2].firstChild.textContent = carbon.Name
                 rowElement.cells[3].firstChild.textContent = carbon.Density
                 rowElement.cells[4].firstChild.textContent = carbon.EmbodiedCarbon
-                //console.log("updating table")
             }
 
             function getCarbonFromForm(){
@@ -292,7 +293,6 @@
                 carbon.Name = form.querySelector('input[name="Name"]').value
                 carbon.Density = form.querySelector('input[name="Density"]').value
                 carbon.EmbodiedCarbon = form.querySelector('input[name="EmbodiedCarbon"]').value
-                //console.log(carbon)
                 return carbon
             }
 
