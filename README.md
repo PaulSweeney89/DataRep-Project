@@ -94,3 +94,10 @@ List of files & folders contained within the Github Repository:
 6. To deactivate the virtual environment, use the command:
 
     ```$ deativate```
+
+## References
+
+**Embodied Carbon - The ICE Database**
+
+The Inventory of Carbon and Energy (ICE) was developed by Dr Craig Jones, formerly of the University of Bath & Professor Geoff Hammond of the Sustainable Energy Research Team (SERT).
+The latest version of the ICE Database can be downloaded from the following [link](https://circularecology.com/embodied-carbon-footprint-database.html)
