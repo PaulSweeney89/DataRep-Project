@@ -83,7 +83,7 @@ List of files & folders contained within the Github Repository:
 
 3. Install the required python libraries from the requirements.txt file:
 
-    ```$ pip install /requirements.txt ```
+    ```$ pip install -r requirements.txt ```
 
 4. Run the Flask server server.py:
 
