@@ -95,6 +95,12 @@ List of files & folders contained within the Github Repository:
 
     ```$ deativate```
 
+## PythonAnywhere
+
+The Web Application is currently hosted on the free version of PythonAnywhere, please visit [https://g00229879.pythonanywhere.com/index.html](https://g00229879.pythonanywhere.com/index.html)
+
+Note as it is hosted on the free version of pythonanywhere the above link to the web application will expire on the 20th March 2022.
+
 ## References
 
 **Embodied Carbon - The ICE Database**

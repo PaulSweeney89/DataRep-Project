@@ -39,6 +39,8 @@ try:
 		print("Table is created....")
 
 		# Loop through the ICE DataFrame
+		# Note for importing into pythonanywhere update sql below
+		# 'embodiedCarbonDB.iceData' updated to 'G00229879$embodiedCarbonDB'
 		for i, row in iceDF.iterrows():
 			sql = "INSERT INTO embodiedCarbonDB.iceData VALUES (%s, %s, %s, %s, %s)"
 			cursor.execute(sql, tuple(row))
