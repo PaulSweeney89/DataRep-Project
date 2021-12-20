@@ -143,7 +143,7 @@
 
             function populateTable(){
                $.ajax({
-                   url:host+'/iceData',
+                   url: host + '/iceData',
                    method:'GET',
                    datatype:'JSON',
                    success:function(results){
@@ -216,7 +216,7 @@
                 carbon = getCarbonFromForm()
                 console.log(carbon)
                 $.ajax({
-                    url:"/iceData",
+                    url:host + "/iceData",
                     data:JSON.stringify(carbon),
                     method:"POST",
                     dataType:"JSON",
@@ -242,7 +242,7 @@
 
             function updateServer(carbon){
                $.ajax({
-                    url: "/iceData/" + carbon.ID,
+                    url:host + "/iceData/" + carbon.ID,
                     data: JSON.stringify(carbon),
                     method: "PUT",
                     dataType: "JSON",
@@ -264,7 +264,7 @@
                 var index = rowElement.rowIndex;
                 ID = rowElement.getAttribute("id");
                 $.ajax({
-                    url:"/iceData/"+ID,
+                    url:host + "/iceData/"+ID,
                     method:"DELETE",
                     dateType:"JSON",
                     success:function(result){
